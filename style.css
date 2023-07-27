@@ -1,0 +1,107 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url("https://cdn.borntoengineer.com/2017/10/video-games.jpeg");
+    background-size: cover;
+  } 
+  
+  section {
+    text-align:center;
+  }
+  
+  .game--title {
+    font-size: 90px;
+    color: black;
+    margin: 10px auto;
+  }
+  .game--title{
+    --h: 1.2em;   
+    linea-height: var(--h);
+    color: #0000;
+    overflow: hidden;
+    text-shadow: 
+      0 var(--_t,var(--h)) #fff,
+      0 0 var(--_c,#000);
+    background: 
+      linear-gradient(#1095c1 0 0) 
+      bottom/100% var(--_d, 0) no-repeat;
+    transition: 0.3s;
+  }
+  .game--title:hover {
+    --_d: 100%;
+    --_t: 0;
+    --_c: #0000;
+  }
+  
+  
+  .game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: black;
+  }
+  
+  .cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+  }
+  
+  .game--status {
+    font-size: 50px;
+    color: red;
+    margin: 20px auto;
+  }
+  
+  .game--restart {
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: black;
+    border-radius: 20%;
+  }
+  
+  #a{
+    background-image: url("https://wallpapercave.com/wp/wp7299410.jpg");
+    background-size: cover;
+    
+  }
+  #b{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.kI0VhFaMsf4wqrEc8bxVkgHaEo&pid=Api&P=0&h=180");
+    background-size: cover;
+  }
+  #c{
+    background-image: url("http://wallpapercave.com/wp/wc1730209.jpg");
+    background-size:cover;
+  }
+  #d{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.J7TVYJcCGjh_MOsJLDXttwHaGl&pid=Api&P=0&h=180");
+    background-size: cover;
+  }
+  #e{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.pIWBHiuBZAYZYCrzjWk2-AHaF7&pid=Api&P=0&h=180");
+    background-size: cover;
+  }
+  #f{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.WdJ8NpGUBAm0_fUZ3BbMGQHaEo&pid=Api&P=0&h=180");
+    background-size: cover;
+  }
+  #g{
+    background-image: url("https://vignette.wikia.nocookie.net/p__/images/3/38/Mantis_(Avengers_Infinity_War_Textless).png/revision/latest/scale-to-width-down/201?cb=20180402090641&path-prefix=protagonist");
+    background-size: cover;
+  }
+  #h{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.zClzY-B13HIb-WdI-q2FXgHaEK&pid=Api&P=0&h=180");
+    background-size: cover;
+  }
+  #i{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.nsQhj3LFD-wwIYnexcJPkQHaEK&pid=Api&P=0&h=180");
+    background-size: cover;
+  }
